@@ -13,10 +13,10 @@ def main():
 
 #data
     ipis_ni_pards = string.ascii_letters
-    case_punc = string.punctuation
-    case_dig = string.digits
+    manok_ni_bobby = string.punctuation
+    pards_vs_bobby_sabong = string.digits
 #adding data's    
-    all = ipis_ni_pards + case_punc + case_dig
+    all = ipis_ni_pards + manok_ni_bobby + pards_vs_bobby_sabong
     
     password = "".join(random.sample(all, length))
     
